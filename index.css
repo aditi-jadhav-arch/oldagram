@@ -70,6 +70,13 @@ section {
   width: 100%;
 }
 
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 19px 11px 12px;
+  gap: 5px;
+}
+
 .icons-container {
   display: flex;
   gap: 15px;
@@ -79,11 +86,9 @@ section {
   width: 23.3px;
 }
 
-.bottom-container {
-  display: flex;
-  flex-direction: column;
-  padding: 10px 19px 11px 12px;
-  gap: 5px;
+.icons:hover,
+.icons:focus {
+  opacity: 0.5;
 }
 
 .likes-count,
